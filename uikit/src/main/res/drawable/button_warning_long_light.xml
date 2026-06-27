@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="false">
+        <shape
+            android:shape="rectangle">
+            <corners
+                android:radius="@dimen/hw_kid_button_drawable_warning_long_light_radius" />
+            <solid
+                android:color="@color/hw_kid_button_drawable_warning_light" />
+            <stroke
+                android:color="@color/hw_kid_button_drawable_warning_light" />
+        </shape>
+    </item>
+    <item
+        android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape
+                    android:shape="rectangle">
+                    <corners
+                        android:radius="@dimen/hw_kid_button_drawable_warning_long_light_radius" />
+                    <solid
+                        android:color="@color/hw_kid_button_drawable_warning_light" />
+                    <stroke
+                        android:color="@color/hw_kid_button_drawable_warning_light" />
+                </shape>
+            </item>
+            <item>
+                <shape
+                    android:shape="rectangle">
+                    <corners
+                        android:radius="@dimen/hw_kid_button_drawable_warning_long_light_radius" />
+                    <solid
+                        android:color="@color/hw_kid_button_drawable_public_color" />
+                    <stroke
+                        android:color="@color/hw_kid_button_drawable_public_color" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

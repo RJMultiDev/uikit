@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    android:ordering="sequentially"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <set
+        android:ordering="together">
+        <objectAnimator
+            android:duration="1"
+            android:valueFrom="M28,6 a22,22 0 0 1 0,44 a22,22 0 0 1 0,-44 v22 a0,0 0 0 0 0,0 a0,0 0 0 0 0,0z"
+            android:valueTo="M28,6 a22,22 0 0 1 0,44 a22,22 0 0 1 0,-44 v22 a0,0 0 0 0 0,0 a0,0 0 0 0 0,0z"
+            android:valueType="pathType"
+            android:propertyName="pathData" />
+        <objectAnimator
+            android:duration="120"
+            android:valueFrom="@color/hw_kid_main"
+            android:valueTo="@color/hw_kid_main"
+            android:propertyName="fillColor" />
+        <objectAnimator
+            android:duration="120"
+            android:valueFrom="0.9"
+            android:valueTo="0.66"
+            android:propertyName="fillAlpha" />
+    </set>
+    <objectAnimator
+        android:duration="120"
+        android:valueFrom="M28,6 a22,22 0 0 1 0,44 a22,22 0 0 1 0,-44 v22 a0,0 0 0 0 0,0 a0,0 0 0 0 0,0z"
+        android:valueTo="M28,6 a22,22 0 0 1 0,44 a22,22 0 0 1 0,-44 v2 a20,20 0 0 0 0,40 a20,20 0 0 0 0,-40z"
+        android:valueType="pathType"
+        android:propertyName="pathData" />
+    <objectAnimator
+        android:duration="10"
+        android:valueFrom="@color/hw_kid_main"
+        android:valueTo="@color/hw_white"
+        android:propertyName="fillColor" />
+</set>

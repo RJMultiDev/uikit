@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/hw_kid_toast_bg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:maxHeight="@dimen/hw_kid_toast_max_height"
+    android:minHeight="@dimen/hw_kid_toast_min_height"
+    android:layout_centerInParent="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/hw_kid_toast_text_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/hw_kid_toast_lv_margin_top"
+        android:layout_marginBottom="@dimen/hw_kid_toast_lv_margin_bottom"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/hw_kid_toast_lv_margin_start"
+        android:layout_marginEnd="@dimen/hw_kid_toast_lv_margin_end">
+        <EditText
+            android:enabled="false"
+            android:textSize="@dimen/hw_kid_toast_et_text_size"
+            android:textColor="@color/textHwKidColorPrimary"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/hw_kid_toast_text"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数据获取失败"
+            android:maxLines="@integer/hw_kid_toast_layout_et_size_max_line"
+            android:maxEms="@integer/hw_kid_toast_layout_et_size_max_ems"
+            android:singleLine="false"
+            android:includeFontPadding="false"
+            android:layout_centerInParent="true"
+            android:fontFamily="@string/hw_kid_font_family_medium" />
+    </RelativeLayout>
+</RelativeLayout>

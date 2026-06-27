@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="hw_kid_list_four_tv1_max_line">2</integer>
+    <integer name="hw_kid_list_four_tv2_max_line">2</integer>
+    <integer name="hw_kid_list_one_tv2_max_line">2</integer>
+    <integer name="hw_kid_list_one_tv_max_enm">9</integer>
+    <integer name="hw_kid_list_one_tv_max_line">2</integer>
+    <integer name="hw_kid_list_three_tv1_max_line">1</integer>
+    <integer name="hw_kid_list_three_tv2_max_line">1</integer>
+    <integer name="hw_kid_list_three_tv3_max_line">1</integer>
+    <integer name="hw_kid_list_to_tv1_max_line">1</integer>
+    <integer name="hw_kid_list_to_tv2_max_line">1</integer>
+    <integer name="hw_kid_list_to_tv3_max_line">1</integer>
+    <integer name="hw_kid_list_two_tv1_max_line">2</integer>
+    <integer name="hw_kid_list_two_tv2_max_line">2</integer>
+    <integer name="hw_kid_popup_bind_success_summary_visibility">0</integer>
+    <integer name="hw_kid_popup_network_activation_big_title_visibility">1</integer>
+    <integer name="hw_kid_popup_network_activation_summary_visibility">1</integer>
+    <integer name="hw_kid_toast_zh_max_line">2</integer>
+    <integer name="hw_kid_button_border">20</integer>
+    <integer name="hw_kid_button_default_style">0</integer>
+    <integer name="hw_kid_button_long_enum">9</integer>
+    <integer name="hw_kid_button_short_enum">3</integer>
+    <integer name="hw_kid_text_view_max_line">2</integer>
+    <integer name="hw_kid_toast_layout_et_size_max_ems">8</integer>
+    <integer name="hw_kid_toast_layout_et_size_max_line">3</integer>
+    <integer name="hw_kid_toast_max_line">3</integer>
+    <integer name="hw_kid_toast_max_line_ems">9</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="brightness_animation_size">15</integer>
+    <integer name="media_volume_animation_size">15</integer>
+    <integer name="xiaodu_access_code">-544960092</integer>
+</resources>

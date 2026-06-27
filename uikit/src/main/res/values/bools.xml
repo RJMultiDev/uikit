@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="hw_kid_list_animation_enable">true</bool>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="abc_allow_stacked_button_bar">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
+    <bool name="config_showOkCancelButtons">false</bool>
+    <bool name="config_bluetooth">true</bool>
+    <bool name="config_rrc_fast_release">false</bool>
+    <bool name="support_electronic_card">false</bool>
+    <bool name="config_notify_video_chat">true</bool>
+    <bool name="support_wifi_config">true</bool>
+    <bool name="support_auto_wifi">true</bool>
+    <bool name="support_camera_setting">true</bool>
+</resources>
