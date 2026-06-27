@@ -1,16 +1,17 @@
 package com.hwkid.uikit
 
 import android.content.Context
-import android.graphics.Color
-import android.graphics.Typeface
 import android.content.res.Resources
 import android.content.res.TypedArray
+import android.graphics.Color
+import android.graphics.Typeface
 import android.util.AttributeSet
 import android.util.Log
 import android.view.MotionEvent
 import android.view.animation.AnimationSet
 import android.view.animation.AnimationUtils
 import android.widget.Button
+import androidx.core.content.ContextCompat
 
 class HwKidButton @JvmOverloads constructor(
     context: Context,
@@ -70,17 +71,17 @@ class HwKidButton @JvmOverloads constructor(
         if (context == null) return
         val res = context.resources
         hwKidButtonRadius = res.getDimensionPixelSize(R.dimen.hw_kid_button_radius)
-        hwKidButtonBackgroundColor = res.getColor(R.color.hw_kid_button_background_normal_color)
-        hwKidButtonBackgroundColorPress = res.getColor(R.color.hw_kid_button_background_press_color)
-        hwKidButtonBackgroundColorFalse = res.getColor(R.color.hw_kid_button_background_press_false_color)
-        hwKidButtonBackgroundTextColor = res.getColor(R.color.hw_kid_button_text_color)
+        hwKidButtonBackgroundColor = ContextCompat.getColor(context, R.color.hw_kid_button_background_normal_color)
+        hwKidButtonBackgroundColorPress = ContextCompat.getColor(context, R.color.hw_kid_button_background_press_color)
+        hwKidButtonBackgroundColorFalse = ContextCompat.getColor(context, R.color.hw_kid_button_background_press_false_color)
+        hwKidButtonBackgroundTextColor = ContextCompat.getColor(context, R.color.hw_kid_button_text_color)
         hwKidButtonBackgroundTextSize = res.getDimensionPixelSize(R.dimen.hw_kid_button_text_size)
-        hwKidButtonBackgroundTextColorPress = res.getColor(R.color.hw_kid_button_text_press_color)
-        hwKidButtonBackgroundTextColorFalse = res.getColor(R.color.hw_kid_button_text_press_false_color)
+        hwKidButtonBackgroundTextColorPress = ContextCompat.getColor(context, R.color.hw_kid_button_text_press_color)
+        hwKidButtonBackgroundTextColorFalse = ContextCompat.getColor(context, R.color.hw_kid_button_text_press_false_color)
         hwKidButtonBorder = res.getInteger(R.integer.hw_kid_button_border)
-        hwKidButtonBorderColor = res.getColor(R.color.hw_kid_button_border_normal_color)
-        hwKidButtonBorderColorPress = res.getColor(R.color.hw_kid_button_border_press_color)
-        hwKidButtonBorderColorFalse = res.getColor(R.color.hw_kid_button_border_press_color)
+        hwKidButtonBorderColor = ContextCompat.getColor(context, R.color.hw_kid_button_border_normal_color)
+        hwKidButtonBorderColorPress = ContextCompat.getColor(context, R.color.hw_kid_button_border_press_color)
+        hwKidButtonBorderColorFalse = ContextCompat.getColor(context, R.color.hw_kid_button_border_press_color)
         hwKidStyle = res.getInteger(R.integer.hw_kid_button_default_style)
         mrLongWidth = res.getDimensionPixelSize(R.dimen.hw_kid_button_long_width)
         mrShortWidth = res.getDimensionPixelSize(R.dimen.hw_kid_button_short_width)

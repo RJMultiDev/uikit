@@ -26,7 +26,7 @@ class HwKidListView @JvmOverloads constructor(
     override fun setAdapter(adapter: ListAdapter?) {
         super.setAdapter(adapter)
         if (getAnimationEnable()) {
-            OverScrollDecoratorHelper.setUpOverScroll(this).setOverScrollStateListener { decor: OverScrollDecor, oldState: Int, newState: Int ->
+            OverScrollDecoratorHelper.setUpOverScroll(this).setOverScrollStateListener { _: OverScrollDecor, _: Int, newState: Int ->
                 if (newState != 0) {
                     isMoveClear = true
                     setOnItemClickListener(null)

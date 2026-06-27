@@ -33,6 +33,11 @@ object HwKidToast {
             editText.text = null
             editText.setText(text)
         }
+        // Toast.setView is deprecated in API 30; suppress to keep parity with the
+        // original decompiled HwKidToast.show() behaviour. The replacement API
+        // requires the caller to own a custom toast subclass, which we cannot
+        // reach from this object.
+        @Suppress("DEPRECATION")
         toast.view = view
         toast.setGravity(android.view.Gravity.CENTER, 0, 0)
         toast.show()
