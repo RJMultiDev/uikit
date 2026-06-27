@@ -161,7 +161,12 @@
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
     <color name="disabled_text_color">#66000000</color>
-    <color name="usage_graph_dots">#33000000</color>
+    <!--
+        "usage_graph_dots" originally references @android:color/car_card_ripple_background,
+        a private Android Automotive color. Rewritten to the closest public approximation
+        (a low-alpha white) so the library compiles as an AAR.
+    -->
+    <color name="usage_graph_dots">#1dffffff</color>
     <color name="colorPrimary">#ff3f51b5</color>
     <color name="colorPrimaryDark">#ff303f9f</color>
     <color name="colorAccent">#ffff4081</color>

@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!--
+        The 14 hkb_* <attr> definitions below are extracted verbatim
+        from the decompiled APK's res/values/attrs.xml. The original
+        APK did declare a `HwKidButton` <declare-styleable> (its
+        R$styleable.HwKidButton_hkb_* indices are visible in the
+        R$styleable.java Apktool produced), but Apktool does not
+        emit <declare-styleable> blocks. The styleable is therefore
+        reconstructed at the bottom with the canonical field order
+        that the decompiled R$styleable.java implies.
+    -->
+
     <attr name="hkb_radius" format="dimension" />
     <attr name="hkb_background_color" format="color" />
     <attr name="hkb_background_color_press" format="color" />
@@ -13,18 +25,19 @@
     <attr name="hkb_background_border_color_press" format="color" />
     <attr name="hkb_background_border_color_false" format="color" />
     <attr name="hkb_style">
-        <enum name="stress_long" value="0" />
-        <enum name="stress_short" value="1" />
-        <enum name="normal_long_light" value="2" />
-        <enum name="normal_short_light" value="3" />
         <enum name="normal_long_deep" value="4" />
+        <enum name="normal_long_light" value="2" />
         <enum name="normal_short_deep" value="5" />
-        <enum name="warning_long_light" value="6" />
-        <enum name="warning_short_light" value="7" />
-        <enum name="warning_long_deep" value="8" />
-        <enum name="warning_short_deep" value="9" />
+        <enum name="normal_short_light" value="3" />
+        <enum name="only_font" value="17" />
         <enum name="only_font_normal" value="18" />
         <enum name="only_font_warning" value="19" />
+        <enum name="stress_long" value="0" />
+        <enum name="stress_short" value="1" />
+        <enum name="warning_long_deep" value="8" />
+        <enum name="warning_long_light" value="6" />
+        <enum name="warning_short_deep" value="9" />
+        <enum name="warning_short_light" value="7" />
     </attr>
 
     <declare-styleable name="HwKidButton">
